@@ -17,7 +17,7 @@ e. SuperBuffer inherits the privacy-preserving feature of Aleo.
  ## SuperBuffer Building
   We choose the [battleship game](https://en.wikipedia.org/wiki/Battleship_(game)) which is well-known to most people for SuperBuffer to speed up. We design and implement three parts to introduce our high-level idea.
  ### Aleo Contract
-  Battleship Aleo contract as one case is used to show us the diverse possibilities of Aleo economy __by official team__. We want to use this game to present the speeding up process of SuperBuffer.   
+  Battleship contract as one case is used to show us the diverse possibilities of Aleo economy __by Aleo community__. We want to use this game to present the speeding up process of SuperBuffer.   
   Please go to [battleship-contract](https://github.com/superbuffers/battleship-contract)(It is a fork from [battleship example](https://github.com/AleoHQ/workshop/tree/master/battleship),we do not change it.) for the run guide and implementation.
  ### Back End
   Back end receives the requests from front end and broadcasts key messages to Aleo chain. This part is responsible for ordering, verification, proof generation, and broadcasting transactions.    
