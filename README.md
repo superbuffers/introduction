@@ -12,7 +12,7 @@ b. Users can delegate heavy computation (i.e. zero-knowledge proof) to a device 
 c. The computation overhead of verifying the request proof is cheap.    
 d. Users can query the state of their own requests at any time.     
 e. SuperBuffer inherits the privacy-preserving feature of Aleo.
- ## Interactive Diagram
+ ## Interaction Diagram
 ![image](https://github.com/superbuffers/introduction/blob/main/diagram/fundament.png)
  ## SuperBuffer Building
   We choose the [battleship game](https://en.wikipedia.org/wiki/Battleship_(game)) which is well-known to most people for SuperBuffer to speed up. We design and implement three parts to introduce our
