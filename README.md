@@ -24,5 +24,5 @@ high-level idea.
   Back end receives the requests from front end and broadcasts key messages to Aleo chain. This part is responsible for ordering, verification, proof generation, and broadcasting transactions.    
   Please go to [superbuffer-battleship](https://github.com/superbuffers/superbuffer-battleship) for the build and run guide.    
  ### Front End
-  Front end mainly presents the battleship game for players. Front end needs to execute and show every steps in game. This component also needs to generate requests according to players’ actions and transmit it to back end.      
+  Front end mainly presents the battleship game for players. Front end needs to execute and show every steps in game. This component also needs to generate requests signed by players according to their actions and transmit it to back end.      
   Please go to [ui](https://github.com/superbuffers/ui) for the build and run guide.    
