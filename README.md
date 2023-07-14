@@ -19,7 +19,7 @@ e. SuperBuffer inherits the privacy-preserving feature of Aleo.
 high-level idea.
  ### Aleo Contract
   Battleship Aleo contract as one case is used to show us the diverse possibilities of Aleo economy by official team. We want to use this game to present the speeding up process of SuperBuffer.   
-  Please go to  for the run guide and implementation.
+  Please go to [battleship-contract](https://github.com/superbuffers/battleship-contract) for the run guide and implementation.
  ### Back End
   Back end receives the requests from front end and broadcasts key messages to Aleo chain. This part is responsible for ordering, verification, proof generation, and broadcasting transactions.    
   Please go to [superbuffer-battleship](https://github.com/superbuffers/superbuffer-battleship) for the run guide and implementation.    
