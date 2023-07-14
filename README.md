@@ -4,7 +4,7 @@
   SuperBuffer is a project designed for speeding up Aleo applications.      
   Aleo is a platform for web applications that need security and privacy guarantees.
 Yet, users often have to endure huge time costs for each request execution. In addition, Aleo relies on heavy computation resources required for zero-knowledge proofs, which is the main challenge for users with weak computation power.       
-  In order to address aforementioned problems, we design SuperBuffer, a middleware to cache these requests and substitute for executing these computations.
+  In order to address aforementioned problems, we design SuperBuffer, a middleware to cache these requests and substitute for executing these heavy computations.
  ## Main Advantages
   The main advantages of this design for Aleo ecosystem can be summarized as follows:      
 a. Users can proceed to the next move without waiting for the response to be put on the chain.      
@@ -14,3 +14,15 @@ d. Users can query the state of their own requests at any time.
 e. SuperBuffer inherits the privacy-preserving feature of Aleo.
  ## Interactive Diagram
 ![image](https://github.com/superbuffers/introduction/blob/main/diagram/fundament.png)
+ ## SuperBuffer Building
+  We choose the battleship game which is well-known to most people for SuperBuffer to speed up. We design and implement three parts to introduce our
+high-level idea.
+ ### Aleo Contract
+  Battleship Aleo contract as one case is used to show us the diverse possibilities of Aleo economy by official team. We want to use this game to present the speeding up process of SuperBuffer.
+  Please go to  for the build and run guide.
+ ### Back End
+  Back end receives the requests from front end and broadcasts key messages to Aleo chain. This part is responsible for ordering, verification, proof generation, and broadcasting transactions.
+  Please go to  for the build and run guide.
+ ### Front End
+  Front end mainly presents the battleship game for players. Front end needs to execute and show every steps in game. This component also needs to generate requests according to players’ actions and transmit it to back end. 
+  Please go to  for the build and run guide.
