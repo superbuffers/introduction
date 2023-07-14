@@ -15,14 +15,14 @@ e. SuperBuffer inherits the privacy-preserving feature of Aleo.
  ## Interactive Diagram
 ![image](https://github.com/superbuffers/introduction/blob/main/diagram/fundament.png)
  ## SuperBuffer Building
-  We choose the battleship game which is well-known to most people for SuperBuffer to speed up. We design and implement three parts to introduce our
+  We choose the [battleship game](https://en.wikipedia.org/wiki/Battleship_(game)) which is well-known to most people for SuperBuffer to speed up. We design and implement three parts to introduce our
 high-level idea.
  ### Aleo Contract
   Battleship Aleo contract as one case is used to show us the diverse possibilities of Aleo economy by official team. We want to use this game to present the speeding up process of SuperBuffer.   
   Please go to  for the build and run guide.
  ### Back End
-  Back end receives the requests from front end and broadcasts key messages to Aleo chain. This part is responsible for ordering, verification, proof generation, and broadcasting transactions.
+  Back end receives the requests from front end and broadcasts key messages to Aleo chain. This part is responsible for ordering, verification, proof generation, and broadcasting transactions.    
   Please go to [superbuffer-battleship](https://github.com/superbuffers/superbuffer-battleship) for the build and run guide.    
  ### Front End
-  Front end mainly presents the battleship game for players. Front end needs to execute and show every steps in game. This component also needs to generate requests according to players’ actions and transmit it to back end. 
+  Front end mainly presents the battleship game for players. Front end needs to execute and show every steps in game. This component also needs to generate requests according to players’ actions and transmit it to back end.      
   Please go to [ui](https://github.com/superbuffers/ui) for the build and run guide.    
